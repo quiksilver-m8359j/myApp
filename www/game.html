@@ -1,0 +1,36 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">問題文</div>
+    </ons-toolbar>
+        <div class="question">
+			<p>
+		    	{{game.items.currentQ.text}}
+    		</p>
+		</div>
+		<div class="choices">
+			<ons-row>
+				<ons-col width="50%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta">解答A</button>
+					</div>				
+				</ons-col>
+				<ons-col width="50%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta">解答B</button>
+					</div>
+				</ons-col>
+				<ons-col width="50%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta">解答C</button>
+					</div>
+				</ons-col>
+				<ons-col width="50%" align="center">
+					<div class="choice">
+						<button class="button button--large--cta">解答D</button>
+					</div>
+				</ons-col>
+			</ons-row>
+		</div>
+	</div>
+</ons-page>
